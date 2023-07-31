@@ -1,0 +1,93 @@
+body {
+    /* background: linear-gradient(120deg, #391858 0%, #314458 100%); */
+    /* background: linear-gradient(120deg, #2c1245 0%, #2b4158 100%); */
+    background: linear-gradient(to top, rgb(9, 32, 63) 0%, rgb(83, 120, 149) 100%);
+    min-height: 100vh;
+
+
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.container {
+    border-radius: 30px;
+    min-height: 550px;
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px;
+
+
+
+}
+
+.input-form input {
+    outline: none;
+    font-size: 15px;
+    width: 100%;
+    padding: 5px;
+    
+    background-color: #c5c5c5;
+    border-radius: 5px;
+
+}
+
+/* .input-form label  {
+    padding: 15px 0px;
+
+} */
+
+#form h1 {
+    font-size: 30px;
+
+}
+
+#form button {
+    border-radius: 20px;
+    border: none;
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: #304E6C;
+    color: azure;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    font-size: smaller;
+}
+
+/* #username{
+    border: 2px solid red;
+} */
+
+.fail {
+    border: 3px solid red;
+}
+
+.success {
+    border: 3px solid green;
+}
